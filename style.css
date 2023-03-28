@@ -1,8 +1,14 @@
-table, td, th{
-    border-collapse: collapse;
+td, th{
     border: 1px dotted;
 }
-
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    display: grid;
+    place-items: center;
+}
 th{
     background-color: rgb(122, 197, 178);
     border: solid 1px;
