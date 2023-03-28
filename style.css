@@ -1,0 +1,13 @@
+table, td, th{
+    border-collapse: collapse;
+    border: 1px dotted;
+}
+
+th{
+    background-color: rgb(122, 197, 178);
+    border: solid 1px;
+}
+tr:hover{
+    background-color: rgb(63, 223, 0);
+    cursor: cell;
+}
